@@ -1,5 +1,5 @@
 /* eslint-disable no-control-regex */
-import ffi from "ffi-napi";
+const ffi = require("@breush/ffi-napi");
 import refArray from "ref-array-napi";
 import DLLHandler from "./DLLHandler";
 import { Device, VMLibrary, VoiceMeeterTypes } from "../types/VoicemeeterTypes";
