@@ -16,8 +16,8 @@
 		"generate-docu": "typedoc --out ./docs src/index.ts"
 	},
 	"dependencies": {
-		"@breush/ffi-napi": "4.0.13",
-		"ref-array-napi": "1.2.2",
+		"@breush/ffi-napi": "^4.0.13",
+		"ref-array-napi": "rivafarabi/ref-array-napi#master",
 		"winreg": "1.2.4"
 	},
 	"devDependencies": {
